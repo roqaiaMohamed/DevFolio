@@ -1,0 +1,346 @@
+html{
+
+    font-size: px;
+}
+
+body{
+    font-family: var(--bs-body-font-family);
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+.bg-img{
+   background-image: url(../img/hero-bg.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   width: 100%;
+   background-attachment: fixed;
+  
+   
+}
+
+.container a {
+    cursor: pointer;
+
+}
+
+
+.overlay-itro{
+
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    opacity: .9 !important;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    opacity: .9 !important;
+
+}
+
+
+.alert-light{
+   width: 85%;
+    
+}
+
+
+
+.progress{
+ height: .70rem;
+}
+
+
+.d-inline{
+    display: inline !important;
+}
+
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+
+
+.roww{
+    width: 85%;
+}
+
+.card-group{
+    width: 85%;
+}
+
+.bgg-img{
+    background-image: url(../img/counters-bg.jpg);
+
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+
+.bg-image {
+    background-attachment: scroll;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero .overlay-itro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.bg-li{
+    background-color: #f5f5f5 !important;
+
+}
+
+.klkl{
+    align-items: center !important;
+}
+
+.rlrl{
+    height: 12.5rem;
+   
+}
+
+.car{
+    border: none;
+}
+ .gg{
+     width: 85%;
+ }
+
+
+
+
+
+img{
+    transition: transform  2s !important;
+   
+    
+}
+
+
+
+ 
+.bm:hover img{
+    transform: scale(1.3,1.3)  !important;
+    
+    
+ }
+
+.im{
+    
+    overflow: hidden;
+  
+}
+
+
+
+
+
+
+
+ 
+
+
+ .llk{
+     width: 10% !important;
+ }
+
+ .bor{
+     border-width: .6rem !important;
+ }
+
+ .mlm{
+     bottom: 1.5rem;
+     right: 1rem;
+     cursor: pointer;
+     
+ }
+
+ .plp{
+     top: 0;
+     left:  0;
+     padding: 0rem 1rem;
+     
+ }
+ 
+ .mn{
+     cursor: pointer;
+ }
+
+ .hh:hover{
+     color: rgb(49, 138, 168);
+ }
+
+ .bo{
+     color: #0078ff !important;
+     opacity: 0.7 !important;
+ }
+
+ .cv{
+     z-index: 22 !important;
+ }
+
+.foo{
+    font-size: 1rem;
+}
+
+.lj{
+    padding: 10rem 0rem;
+}
+
+.kj{
+    padding: 4rem 0rem 4rem 0rem;
+}
+.okk{
+    width: 35%;
+}
+@media screen and (max-width:700px) {
+    .okk{
+        width: 40%;
+       
+    }
+    
+}
+
+.lp{
+    opacity: 0;
+  
+}
+
+.vb{
+    width: .7rem !important;
+    height: .7rem !important;
+
+}
+
+
+.loloo{
+    
+    background-color: rgb(67, 167, 201) ;
+    font-size: 19px;
+    text-align: center;
+    padding: 8px 11px ;
+    color: white ;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 1s ;
+
+}
+
+.loloo:hover{
+    background-color: rgb(39, 146, 182) !important;
+}
+
+.gogii{
+    position: fixed;
+    
+    
+    z-index: 1;
+
+    right: 10px;
+    bottom: 10px;
+}
+
+.zi{
+    z-index: 88;
+}
+
+.sd:hover i{
+    background-color: #0078ff !important;
+    border-color: #b3d5fc !important;
+    color: #fff !important;
+}
+
+.nav-link p{
+    position: relative;
+}
+
+.nav-link p::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color:white;
+    bottom: -3px;
+    left: 0;
+    transition: width 1s !important;
+   
+
+
+}
+.nav-link:hover p::after{
+    width: 2.5rem !important;
+    
+
+}
+
+
+
+
+.aft h2{
+    position: relative;
+    
+}
+
+.aft h2::after{
+    content: '';
+    width: 6.3rem ;
+    height: 3px;
+    background-color: #0078ff;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    
+}
+
+.hom{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.overlay-it{
+    background-color:#0078ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
